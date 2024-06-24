@@ -125,8 +125,6 @@ div.accountregister1 {
 
   body {
     height: auto;
-    margin: 300px 0px 0px 0px;
-    overflow: hidden;
   }
 
   div.container {
@@ -154,9 +152,8 @@ div.accountregister1 {
   div.footer {
     width: auto;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 30vh;
     background-attachment: fixed;
-    overflow: hidden;
   }
 
   h1.header1 {
