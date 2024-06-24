@@ -124,7 +124,8 @@ div.accountregister1 {
 @media (max-width: 768px) {
 
   div.container {
-    width: 95%;
+    width: auto;
+    height: auto;
     margin: 50px 0px 0px 0px;
   }
 
@@ -145,7 +146,8 @@ div.accountregister1 {
   }
 
   div.footer {
-    padding: 0px 0px 0px 50px;
+    width: auto;
+    height: auto;
   }
 
   h1.header1 {
