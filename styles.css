@@ -123,10 +123,6 @@ div.accountregister1 {
 
 @media (max-width: 768px) {
 
-  body {
-    background-attachment: fixed;
-  }
-
   div.container {
     width: auto;
     height: auto;
