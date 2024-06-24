@@ -153,6 +153,7 @@ div.accountregister1 {
     width: auto;
     height: auto;
     margin-top: 30vh;
+    position: relative;
   }
 
   h1.header1 {
