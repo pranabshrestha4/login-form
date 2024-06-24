@@ -124,7 +124,7 @@ div.accountregister1 {
 @media (max-width: 768px) {
 
   body {
-    height: 10vh;
+    height: auto;
   }
 
   div.container {
