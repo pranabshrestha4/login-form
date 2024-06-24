@@ -123,6 +123,13 @@ div.accountregister1 {
 
 @media (max-width: 768px) {
 
+  body {
+    max-height: 100vh;
+    /* Example max-height for the body */
+    height: 100%;
+    /* Ensures body fills the viewport height */
+  }
+
   div.container {
     width: auto;
     height: auto;
