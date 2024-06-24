@@ -123,6 +123,10 @@ div.accountregister1 {
 
 @media (max-width: 768px) {
 
+  body {
+    height: 10vh;
+  }
+
   div.container {
     width: auto;
     height: auto;
@@ -148,7 +152,7 @@ div.accountregister1 {
   div.footer {
     width: auto;
     height: auto;
-    margin-top: 100vh;
+    margin-top: 150vh;
     margin-bottom: 50vh;
   }
 
