@@ -152,7 +152,8 @@ div.accountregister1 {
   div.footer {
     width: auto;
     height: auto;
-    margin-top: 170vh;
+    margin-top: 150vh;
+    max-height: 5vh;
     background-attachment: fixed;
   }
 
