@@ -148,6 +148,8 @@ div.accountregister1 {
   div.footer {
     width: auto;
     height: auto;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
   }
 
   h1.header1 {
