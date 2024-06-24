@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+}
+
+div.container {
+  display: block;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1.header1 {
+  display: block;
+  padding: 10px 0px 0px 195px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label.username {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 0px 0px 40px;
+}
+
+.usernametextbox {
+  display: block;
+  width: 400px;
+  height: 30px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  margin: 10px 0px 0px 40px;
+  color: black;
+  padding: 0px 0px 0px 10px;
+}
+
+label.password {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px 0px 0px 40px;
+}
+
+.passwordtextbox {
+  display: block;
+  width: 400px;
+  height: 30px;
+  border: 3px solid grey;
+  margin: 10px 0px 0px 40px;
+  border-radius: 5px;
+  color: black;
+  padding: 0px 0px 0px 10px;
+}
+
+.passwordreset {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: -15px 0px 0px 310px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+button.login {
+  display: block;
+  background-color: black;
+  color: white;
+  margin: 15px 0px 0px 40px;
+  width: 410px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+button.login:hover {
+  background-color: grey;
+}
+
+input.checkbox {
+  margin: 15px 0px 0px 40px;
+  width: 15px;
+  height: 15px;
+}
+
+b.remember {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: -13px 0px 0px 65px;
+}
+
+div.newcontainer {
+  margin: -18px 0px 0px 0px;
+}
+
+div.footer {
+  display: block;
+  width: 205.9vh;
+  height: 50px;
+  background-color: black;
+  margin-top: 703px;
+  position: absolute;
+  color: white;
+}
+
+p.footertext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 15px 0px 0px 560px;
+}
+
+div.accountregister1 {
+  padding: 10px 0px 0px 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  div.container {
+    width: 90%;
+    margin: 50px 0px 0px 0px;
+  }
+
+  button.login {
+    width: 85%;
+  }
+
+  input.passwordtextbox {
+    width: 83%;
+  }
+
+  input.usernametextbox {
+    width: 83%;
+  }
+
+  div.accountregister1 {
+    margin: 0px 0px 0px -30px;
+  }
+
+  div.footer {
+    padding: 0px 0px 0px 50px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .usernametextbox,
+  .passwordtextbox {
+    font-size: 16px;
+  }
+}
