@@ -123,11 +123,6 @@ div.accountregister1 {
 
 @media (max-width: 768px) {
 
-  body {
-    height: auto;
-    margin: 300px 0px 0px 0px;
-  }
-
   div.container {
     width: auto;
     height: auto;
