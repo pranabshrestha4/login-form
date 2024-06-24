@@ -122,8 +122,9 @@ div.accountregister1 {
 
 
 @media (max-width: 768px) {
+
   div.container {
-    width: 90%;
+    width: 95%;
     margin: 50px 0px 0px 0px;
   }
 
@@ -146,13 +147,8 @@ div.accountregister1 {
   div.footer {
     padding: 0px 0px 0px 50px;
   }
-}
 
-
-@media (max-width: 480px) {
-
-  .usernametextbox,
-  .passwordtextbox {
-    font-size: 16px;
+  h1.header1 {
+    margin: 0px 0px 0px -30px;
   }
 }
