@@ -124,7 +124,7 @@ div.accountregister1 {
 @media (max-width: 768px) {
 
   div.container {
-    width: 370px;
+    width: 390px;
     margin-left: 40px;
     height: auto;
   }
@@ -167,4 +167,5 @@ div.accountregister1 {
 
   .passwordreset {
     padding-right: 80px;
+    text-align: center;
   }
