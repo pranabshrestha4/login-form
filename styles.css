@@ -150,8 +150,8 @@ div.accountregister1 {
   }
 
   div.footer {
-    width: auto;
-    height: auto;
+    width: 10px;
+    height: 10px;
     margin-top: 150vh;
     background-attachment: fixed;
   }
