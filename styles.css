@@ -150,8 +150,8 @@ div.accountregister1 {
   }
 
   div.footer {
-    width: 2vh;
-    max-width: 3vh;
+    width: 100px;
+    max-width: 120px;
     height: 4vh;
     margin-top: 150vh;
     max-height: 5vh;
